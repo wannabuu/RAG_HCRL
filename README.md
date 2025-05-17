@@ -12,19 +12,7 @@ This repository provides code and resources for building, training, and evaluati
 - Hybrid Conversational Reinforcement Learning (HCRL) integration
 - Modular codebase for easy experimentation
 - Support for custom datasets and retrieval modules
-
-## Project Structure
-
-```
-RAG_HCRL/
-├── data/               # Datasets and data processing scripts
-├── models/             # Model architectures and training scripts
-├── retrieval/          # Retrieval modules and utilities
-├── utils/              # Helper functions and utilities
-├── experiments/        # Experiment configurations and results
-├── README.md           # Project documentation
-```
-
+  
 ## Installation
 
 1. Clone the repository:
@@ -37,27 +25,3 @@ RAG_HCRL/
     pip install -r requirements.txt
     ```
 
-## Usage
-
-- Prepare your dataset in the `data/` directory.
-- Configure your experiment in `experiments/`.
-- Train the model:
-  ```bash
-  python models/train.py --config experiments/your_config.yaml
-  ```
-- Evaluate the model:
-  ```bash
-  python models/evaluate.py --model_path path/to/model
-  ```
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For questions or support, please open an issue on GitHub.
